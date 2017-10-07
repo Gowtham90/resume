@@ -1,0 +1,569 @@
+/*
+ --Grabon Assignmnet 17-09-2017
+*/
+
+/* General Styles  */
+
+body {
+      font: 400 15px Lato, sans-serif;
+      line-height: 1.8;
+      color: #818181;
+     }
+	 
+/* Header Styles  */ 
+	 
+  h2 {
+	  text-align : justify;
+      font-size: 24px;
+      text-transform: uppercase;
+      color: #f4511e;
+      font-weight: 600;
+      margin-bottom: 30px;
+     }
+	 
+  h4 {
+	  text-align : justify;
+      font-size: 19px;
+      line-height: 1.375em;
+      color: #f4511e;
+      font-weight: 400;
+      margin-bottom: 30px;
+     }  
+	 
+  h3	 {
+	  color: #f4511e;
+	  
+  }
+   
+	 
+/* Bootstrap navbar & links */	 
+	 
+   .navbar {
+      margin-bottom: 0;
+      background-color: #f4511e;
+      z-index: 999;
+      border: 0;
+      font-size: 12px !important;
+	  font-weight : bold;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+  }
+  
+  .navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+  }
+  
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #f4511e !important;
+      background-color: #fff !important;
+	  border-radius : 10px;
+  }
+  
+  /*
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+  }
+  
+	*/  
+	 
+/*  Bootstrap Jumbotron for intro name */
+  .jumbotron {
+
+   position: relative; 
+   font-family: Montserrat, sans-serif;
+   height: 710px;
+   min-height: 500px;
+   width: 100%;
+   background: #f4511e no-repeat top center;
+   color : white;
+   background-size: cover !important;
+  -webkit-background-size: cover !important;
+   text-align: center;
+   padding: 220px 25px;
+   overflow: hidden;
+}
+  
+ 
+  /*  Bootstrap Jumbotron for intro name Gowtham */
+ .intro-content h1 {
+	color: #FFFFFF;
+	font-family: "poppins-medium", sans-serif;
+	font-size: 8.4rem;
+	line-height: 1.071;
+	max-width: 900px;
+	margin-top: 0;
+	margin-bottom: .6rem;
+	margin-left: auto;
+	margin-right: auto;
+	text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.intro-content h5 {
+	color: white;
+	font-family: "poppins-bold", sans-serif;
+	font-size: 2.3rem;
+	line-height: 1.565;
+	margin-bottom: 0;
+	text-transform: uppercase;
+	letter-spacing: .3rem;
+	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+.intro-content .intro-position {
+	font-family: "lora-regular", serif;
+	font-size: 1.7rem;
+	line-height: 2.4rem;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+	color: #FFFFFF;
+	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+.intro-content .intro-position span {
+	display: inline-block;
+}
+.intro-content .intro-position span::after {
+	content: "|";
+	text-align: center;
+	display: inline-block;
+	padding: 0 8px 0 14px;
+	color: rgba(255, 255, 255, 0.3);
+}
+.intro-content .intro-position span:first-child::before {
+	content: "|";
+	text-align: center;
+	display: inline-block;
+	padding: 0 14px 0 8px;
+	color: rgba(255, 255, 255, 0.3);
+}
+
+/*  Bootstrap Jumbotron more button*/
+.intro-content .button {
+	color: #FFFFFF !important;
+    text-decoration : none;
+	border-color: rgba(255, 255, 255, 0.3);
+	height: 6rem !important;
+	line-height: 5.4rem !important;
+	padding: 0 3.5rem 0 3rem !important;
+	margin-top: .6rem;
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	letter-spacing: .25rem;
+}
+.intro-content .button:hover, .intro-content .button:focus {
+	color: green !important;
+      background-color: #fff !important;
+	  border-radius : 10px;
+	  color : green;
+	
+}
+
+/* More about me arrow */
+.intro-content .button::after {
+	display: inline-block;
+	content: "\f107";
+	font-family: fontAwesome;
+	font-size: 1.6rem;
+	line-height: inherit;
+	text-align: center;
+	position: relative;
+	left: 1.2rem;
+}
+ 
+ 
+/* Social media icons */ 
+.intro-social {
+	display: block;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	bottom: 7.2rem;
+	font-size: 3.3rem;
+	margin: 0;
+	padding: 0;
+}
+.intro-social li {
+	display: inline-block;
+	margin: 0 20px;
+	padding: 0;
+}
+.intro-social li a, .intro-social li a:visited {
+	color: #FFFFFF;
+}
+.intro-social li a:hover, .intro-social li a:focus {
+	color: green;
+}
+
+
+/*  Get in touch button */
+#touchbtn {
+	border : 2px solid #f4511e;
+	text-decoration : none !important;
+	color : #f4511e !important;	
+}
+
+/*
+ responsive:Intro
+ 
+ */
+ @media only screen and (max-width:1024px) {
+	.intro-content h1 {
+		font-size: 7.6rem;
+	}
+	.intro-social {
+		font-size: 3rem;
+	}
+	.intro-social li {
+		margin: 0 15px;
+	}
+}
+@media only screen and (max-width:768px) {
+	#intro {
+		min-height: 660px;
+	}
+	.intro-content h1 {
+		font-size: 5.2rem;
+	}
+	.intro-content h5 {
+		font-size: 1.8rem;
+	}
+	.intro-content .intro-position {
+		font-size: 1.3rem;
+	}
+	.intro-social {
+		font-size: 2.5rem;
+	}
+	.intro-social li {
+		margin: 0 10px;
+	}
+}
+@media only screen and (max-width:600px) {
+	#intro {
+		min-height: 600px;
+	}
+	
+	.jumbotron {
+
+   position: relative; 
+   font-family: Montserrat, sans-serif;
+   height: 510px;
+   min-height: 500px;
+   width: 100%;
+   background: #f4511e no-repeat top center;
+   color : white;
+   background-size: cover !important;
+  -webkit-background-size: cover !important;
+   text-align: center;
+   padding: 125px 5px;
+   overflow: hidden;
+	
+	}
+	.intro-content h1 {
+		font-size: 4.6rem;
+		margin-bottom: .6rem;
+	}
+	.intro-content h5 {
+		font-size: 1.5rem;
+		margin-bottom: .3rem;
+		letter-spacing: .2rem;
+	}
+	.intro-content .intro-position {
+		font-size: 1.2rem;
+	}
+	.intro-content .intro-position span {
+		padding: 0 .6rem;
+	}
+	.intro-content .intro-position span::before, .intro-content .intro-position span::after {
+		display: none !important;
+	}
+	.intro-social {
+		font-size: 2.4rem;
+	}
+}  
+  
+	 
+ /*  Container (About Section text) */
+ 
+  .container-fluid {
+      padding: 60px 50px;
+  }
+  .bg-grey {
+      background-color: #f6f6f6;
+  }
+  
+  .slideanim {visibility:hidden;}
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+        font-size: 150px;
+    }
+  }
+ 
+ .logo {
+	  
+      color: lightgrey;
+      font-size: 200px;
+	  left : 65px;
+	  top : 40px;
+   }
+ 
+  #sec12 {
+           text-align:justify;
+           text-justify: inter-word;
+
+          /* for IE9 */
+          -ms-text-align-last:center;
+         } 
+	 
+ /*
+ 
+Container (Work Experience Section) 
+ 
+ */
+
+#resume .resume-header {
+	text-align: center;
+}
+#resume .resume-header h2 {
+	color: #f4511e;
+}
+
+#resume .resume-work {
+	max-width: 980px;
+}
+#resume .work-wrap {
+	position: relative;
+	margin-top: 1.5rem;
+	margin-bottom: 6rem;
+}
+#resume .work-wrap::before {
+	content: "";
+	display: block;
+	width: 1px;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.1);
+	position: absolute;
+	left: 35%;
+	top: 0;
+}
+#resume .work-block {
+	position: relative;
+	padding-top: 1.5rem;
+}
+#resume .work-ico {
+	height: 4.8rem;
+	width: 4.8rem;
+	line-height: 4.8rem;
+	background:  #f4511e;
+	border-radius: 20%;
+	text-align: center;
+	color:white ;
+	position: absolute;
+	left: 35%;
+	top: .9rem;
+	margin-left: -2.4rem;
+}
+#resume .work-ico i {
+	position: relative;
+	left: .05rem;
+	top: .2rem;
+}
+
+#resume .work-header {
+	float: left;
+	width: 35%;
+	padding-right: 90px;
+	text-align: right;
+}
+#resume .work-header h3 {
+	margin-bottom: 0;
+}
+#resume .work-header p {
+	font-family: "poppins-regular", sans-serif;
+	font-size: 1.6rem;
+	color: #888888;
+}
+#resume .work-content {
+	margin-left: 35%;
+	padding-left: 60px;
+}
+#resume .work-content h4 {
+	position: relative;
+	padding-bottom: 1.8rem;
+}
+#resume .work-content h4::after {
+	content: "";
+	display: block;
+	height: 3px;
+	width: 50px;
+	background: rgba(0, 0, 0, 0.2);
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+/*
+ * responsive:resume
+
+ */
+@media only screen and (max-width:1024px) {
+	#resume .work-header {
+		padding-right: 50px;
+	}
+	#resume .work-header h3 {
+		font-size: 1.8rem;
+	}
+	#resume .work-header p {
+		font-size: 1.4rem;
+	}
+	#resume .work-content {
+		padding-left: 50px;
+	}
+}
+@media only screen and (max-width:768px) {
+	#resume .work-wrap::before {
+		left: 2.4rem;
+	}
+	#resume .work-ico {
+		left: 2.4rem;
+	}
+	#resume .work-header {
+		float: none;
+		width: auto;
+		padding-right: 15px;
+		text-align: left;
+	}
+	#resume .work-header h3 {
+		font-size: 2rem;
+	}
+	#resume .work-header p {
+		font-size: 1.5rem;
+		margin-bottom: 1.5rem;
+	}
+	#resume .work-content {
+		margin: 0;
+	}
+	#resume .work-content h4 {
+		padding-bottom: 0;
+		padding-top: 2.1rem;
+		margin-bottom: .6rem;
+		font-size: 1.7rem;
+	}
+	#resume .work-content h4::after {
+		bottom: auto;
+		top: 0;
+	}
+	#resume .work-header, #resume .work-content {
+		padding-left: 7rem;
+	}
+}
+@media only screen and (max-width:480px) {
+	#resume .resume-header h2 {
+		font-size: 2.2rem;
+	}
+	#resume .work-wrap::before {
+		left: 1.8rem;
+	}
+	#resume .work-ico {
+		height: 3.6rem;
+		width: 3.6rem;
+		line-height: 3.6rem;
+		left: 1.8rem;
+		margin-left: -1.8rem;
+		font-size: 1.5rem;
+	}
+	#resume .work-header, #resume .work-content {
+		padding-left: 5.5rem;
+	}
+}
+
+
+
+/*  Container (Expertise points) */
+.work-block {
+	padding : 10px;
+}
+
+
+#expertse  {
+	height: 3.8rem;
+	width: 3.8rem;
+	line-height: 3.8rem;
+	background: #f4511e;
+	border-radius: 20%;
+	text-align: center;
+	color: white;
+	position: relative;	
+}	
+
+#form-text {
+	padding: 18px 20px;
+	margin-bottom: 42px;
+	border: 0;
+	outline: none;
+   font-size: 15px;
+   line-height: 24px;
+   width: 65%;
+}
+
+/*  Footer */
+
+ footer .glyphicon {
+      font-size: 20px;
+      margin-bottom: 20px;
+      color: #f4511e;
+  }
+
+	
+
+/* slide animation */
+
+
+
+
+
+
+
+
+
+
+
